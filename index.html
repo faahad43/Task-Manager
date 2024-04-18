@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="window ">
+        <div class="container">
+            <div class="mode-toggle">
+                <i class="fa-solid fa-sun" style="color: #fff;"></i>
+                <i class="fa-solid fa-moon" style="color: #fff;"></i>
+                <div class="toggle-btn"></div>
+            </div>
+            <h1>Task Manager</h1>
+            <input type="text" id="input" placeholder="Enter you task here" autocomplete="off"/>
+            <div class="btn-container">
+                <button class="btn add" id="add">Add</button>
+                <button class="btn remove" id="remove">Remove</button>
+                <button class="btn update" id="update">Update</button>
+                <button class="btn clear" id="clear">Clear</button>
+            </div>
+            <div class="task-list" id="task-list">
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/5bc4067c57.js" crossorigin="anonymous"></script>
+</body>
+</html>
